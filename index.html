@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptação e Descriptação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/logo_alura.png" alt="Logo da Alura">
+    </header>
+
+    <main class="conteudo">
+        <div class="conteudo__principal">
+            <h2>Encriptação e Descriptação</h2>
+
+            <textarea id="inputText" placeholder="Insira o texto aqui"></textarea><br>
+
+            <button class="botao" onclick="criptografar()">Criptografar</button>
+            <button class="botao" onclick="descriptografar()">Descriptografar</button>
+        </div>
+        <div class="conteudo__saida">
+            <p>Texto Criptografado:</p>
+            <p id="encryptedText"></p>
+
+            <p>Texto Descriptografado:</p>
+            <p id="decryptedText"></p>
+            <img class="imagem_principal" id="imagem" src="./assets/ilustracao.png"
+                alt="Desenho de homen procurando algo com lupa">
+            <div class="caixa_texto">
+                <h3 class="mensagem_h3">Nenhuma mensagem encontrada</h3>
+                <p class="mensagem_p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+
+    <footer class="rodape">
+        <h1>Desenvolvido por Romário Lopes</h1>
+    </footer>
+</body>
+
+</html>
